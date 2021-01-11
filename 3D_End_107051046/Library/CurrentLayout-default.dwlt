@@ -175,7 +175,7 @@ MonoBehaviour:
   m_MinSize: {x: 709, y: 613}
   m_MaxSize: {x: 18004, y: 18063}
   vertical: 0
-  controlID: 119
+  controlID: 17
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -222,7 +222,7 @@ MonoBehaviour:
   m_MinSize: {x: 232, y: 613}
   m_MaxSize: {x: 10002, y: 18063}
   vertical: 1
-  controlID: 42
+  controlID: 18
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -359,8 +359,8 @@ MonoBehaviour:
     m_VAllowExceedBaseRangeMin: 1
     m_VAllowExceedBaseRangeMax: 1
     m_ScaleWithWindow: 0
-    m_HSlider: 0
-    m_VSlider: 0
+    m_HSlider: 1
+    m_VSlider: 1
     m_IgnoreScrollWheelUntilClicked: 0
     m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
@@ -373,18 +373,18 @@ MonoBehaviour:
       y: 21
       width: 431
       height: 79
-    m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 215.5, y: 39.5}
+    m_Scale: {x: 6.2499924, y: 6.2500014}
+    m_Translation: {x: 185.88643, y: -65.76402}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -215.5
-      y: -39.5
-      width: 431
-      height: 79
+      x: -29.741865
+      y: 10.522242
+      width: 68.96008
+      height: 12.6399975
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_LastWindowPixelSize: {x: 538.75, y: 125}
@@ -534,20 +534,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/CR/source
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets
+  - Assets/CR/source
   m_LastFoldersGridSize: 16
   m_LastProjectPath: C:\Users\User\Desktop\ASIA_3D_End_107051046\3D_End_107051046
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: c23c0000
-    m_LastClickedID: 15554
-    m_ExpandedIDs: 00000000c23c000000ca9a3b
+    m_SelectedIDs: 5c3f0000
+    m_LastClickedID: 16220
+    m_ExpandedIDs: 00000000943e0000a63e0000aa3e0000ac3e00005a3f000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -575,7 +575,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 
+    m_ExpandedIDs: 00000000943e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -606,18 +606,18 @@ MonoBehaviour:
     m_ExpandedInstanceIDs: c6230000aace000092d100009ed2000018d20000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: Texture Shool
+      m_OriginalName: Texture Shool
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 16042
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 11}
     m_CreateAssetUtility:
@@ -667,9 +667,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0, y: 0, z: 0}
+    m_Target: {x: -7.18827, y: 2.740122, z: -8.460907}
     speed: 2
-    m_Value: {x: 0, y: 0, z: 0}
+    m_Value: {x: -7.18827, y: 2.740122, z: -8.460907}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -715,13 +715,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+    m_Target: {x: -0.3307822, y: -0.02010332, z: 0.007045287, w: -0.9434735}
     speed: 2
-    m_Value: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+    m_Value: {x: -0.3293645, y: -0.020113736, z: 0.0070150783, w: -0.9439626}
   m_Size:
-    m_Target: 10
+    m_Target: 4.7715235
     speed: 2
-    m_Value: 10
+    m_Value: 5.0715237
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -774,24 +774,24 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: faf9ffff36fbffff
+      scrollPos: {x: 0, y: 605}
+      m_SelectedIDs: 0e93ffff
+      m_LastClickedID: -27890
+      m_ExpandedIDs: ca91ffffcc91ffffd491ffff2492ffff2892ffff3a92ffff4092ffff4a92ffff6e92ffffa892ffffd292ffffd892ffffde92ffffee92ffff1093ffff4493ffff4a93ffff6c93ffffa093ffffc293ffffc493ffffd093ffffe293ffffec93fffff293ffff1e94ffff2c94ffff3294ffff4294ffff5a94ffff5e94ffff8894ffff8e94ffffba94ffffc094ffffd294fffff894fffffc94ffff0295ffff0495ffff0695ffff1895ffff2095ffff2295ffff2695ffff2895ffff5695ffff6695ffff7a95ffff9495ffffa495ffffb295ffffc495ffffca95ffffd295ffffe095fffff295ffff0696ffff2c96ffff3c96ffff4696ffff5c96ffff6296ffff6896ffff7496ffffa296ffffdc96fffffc96ffff0097ffff1e97ffff5497ffff5897ffff6697ffff7097ffff8297ffffa097ffffa497ffffb097ffffb897ffffc097ffffd497ffffe697fffff297fffffa97ffff1298ffff1898ffff3a98ffff4498ffff4c98ffff5098ffff6298ffff6698ffff7698ffff8098ffff9298ffffa098ffffa298ffffae98ffffb698ffffce98ffffe498fffff698ffff0099ffff1c99ffff2899ffff2e99ffff3699ffff5299ffff7899ffffa099fffff099ffff1a9affff689affff2aebffff0eeeffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: anime_classroom_B
+        m_OriginalName: anime_classroom_B
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: -26008
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 0
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 10}
       m_SearchString: 

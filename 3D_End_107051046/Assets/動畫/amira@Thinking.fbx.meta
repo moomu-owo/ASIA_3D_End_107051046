@@ -1,11 +1,8 @@
 fileFormatVersion: 2
-guid: ef6d28eb319962145a903defa69cfe56
+guid: 98e1b510da98d41478368fcdc3a7aaf7
 ModelImporter:
   serializedVersion: 19301
   internalIDToNameTable:
-  - first:
-      74: 5206626448873564102
-    second: Armature|CharacterAnimation
   - first:
       74: -203655887218126122
     second: mixamo.com

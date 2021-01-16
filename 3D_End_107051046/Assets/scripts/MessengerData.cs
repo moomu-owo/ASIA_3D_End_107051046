@@ -13,4 +13,8 @@ public class MessengerData : ScriptableObject
     public string dialogB;
     [Header("第三段對話"), TextArea(1, 5)]
     public string dialogC;
+    [Header("第四段對話"), TextArea(1, 5)]
+    public string dialogD;
+    [Header("第五段對話"), TextArea(1, 5)]
+    public string dialogE;
 }

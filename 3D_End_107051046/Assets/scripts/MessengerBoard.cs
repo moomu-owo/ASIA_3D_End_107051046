@@ -18,13 +18,13 @@ public class MessengerBoard: MonoBehaviour
     // 定義列舉 eunm (下拉式選單 - 只能選一個)
     public enum NPCState
     {
-        FirstDialog, Missioning, Finish
+       Propaganda, RollCall, Dairy, Opennote, Note
     }
 
     // 列舉欄位
     // 修飾詞 列舉名稱 自訂欄位名稱 指定 預設值；
     [Header("NPC 狀態")]
-    public NPCState state = NPCState.FirstDialog;
+    public NPCState state = NPCState.Propaganda;
 
     /// <summary>
     /// 玩家是否進入感應區
@@ -106,14 +106,20 @@ public class MessengerBoard: MonoBehaviour
         // 判斷 NPC 狀態 來顯示對應的 對話內容
         switch (state)
         {
-            case NPCState.FirstDialog:
+            case NPCState.Propaganda:
                 dialogString = data.dialogA;
                 break;
-            case NPCState.Missioning:
+            case NPCState.RollCall:
                 dialogString = data.dialogB;
                 break;
-            case NPCState.Finish:
+            case NPCState.Dairy:
                 dialogString = data.dialogC;
+                break;
+            case NPCState.Opennote:
+                dialogString = data.dialogD;
+                break;
+            case NPCState.Note:
+                dialogString = data.dialogE;
                 break;
         }
 

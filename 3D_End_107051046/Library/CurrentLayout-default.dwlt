@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 6}
-  m_MinSize: {x: 875, y: 521}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -74,7 +74,7 @@ MonoBehaviour:
   m_MinSize: {x: 201, y: 342}
   m_MaxSize: {x: 4001, y: 8042}
   vertical: 1
-  controlID: 17
+  controlID: 74
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -197,10 +197,10 @@ MonoBehaviour:
     y: 30
     width: 1536
     height: 731
-  m_MinSize: {x: 708, y: 471}
-  m_MaxSize: {x: 18003, y: 14021}
+  m_MinSize: {x: 709, y: 492}
+  m_MaxSize: {x: 18004, y: 14042}
   vertical: 0
-  controlID: 16
+  controlID: 73
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -243,10 +243,10 @@ MonoBehaviour:
     y: 0
     width: 394
     height: 731
-  m_MinSize: {x: 232, y: 471}
-  m_MaxSize: {x: 10002, y: 14021}
+  m_MinSize: {x: 232, y: 492}
+  m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 75
+  controlID: 126
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -266,8 +266,8 @@ MonoBehaviour:
     y: 0
     width: 394
     height: 314
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 19}
@@ -643,20 +643,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/messenger
+    - Assets/3DVoxel_Free/SchoolGirl/Arts/Fbx
   m_ViewMode: 1
   m_StartGridSize: 96
   m_LastFolders:
-  - Assets/messenger
+  - Assets/3DVoxel_Free/SchoolGirl/Arts/Fbx
   m_LastFoldersGridSize: 96
   m_LastProjectPath: C:\Users\User\Desktop\ASIA_3D_End_107051046\3D_End_107051046
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: e27c0000
-    m_LastClickedID: 31970
-    m_ExpandedIDs: 00000000d47c0000d67c0000d87c0000dc7c000000ca9a3b
+    m_SelectedIDs: 2c420000
+    m_LastClickedID: 16940
+    m_ExpandedIDs: 00000000584100005a4100005c4100008c4100002c42000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -684,7 +684,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000d47c0000d67c0000d87c0000
+    m_ExpandedIDs: 00000000584100005a4100005c410000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -736,7 +736,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
+    m_ScrollPosition: {x: 0, y: 773.5}
     m_GridSize: 96
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 110
@@ -776,9 +776,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 24.573772, y: 1.5445839, z: 11.121421}
+    m_Target: {x: 27.78164, y: 2.6130996, z: 8.653471}
     speed: 2
-    m_Value: {x: 24.573772, y: 1.5445839, z: 11.121421}
+    m_Value: {x: 27.78164, y: 2.6130996, z: 8.653471}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -824,13 +824,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.03224839, y: 0.96417624, z: -0.22401889, w: 0.13861686}
+    m_Target: {x: 0.04077201, y: 0.8510948, z: -0.066754915, w: 0.51923305}
     speed: 2
-    m_Value: {x: 0.032247182, y: 0.9641402, z: -0.2240105, w: 0.13861167}
+    m_Value: {x: 0.040670127, y: 0.8518369, z: -0.06681319, w: 0.5179341}
   m_Size:
-    m_Target: 3.1138072
+    m_Target: 3.2047708
     speed: 2
-    m_Value: 3.1138072
+    m_Value: 3.3557808
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -884,20 +884,20 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: da4fffffa652ffffc8720000ee7200005c74000074740000547500003c77000020780000607b0000a07b0000
+      m_SelectedIDs: aaefffff
+      m_LastClickedID: -4182
+      m_ExpandedIDs: 6afbffff18340000643900007c3c0000d43d0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: Blazer_miharu
-        m_OriginalName: Blazer_miharu
+        m_Name: CutterShirt_yuika
+        m_OriginalName: CutterShirt_yuika
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: -45094
+        m_UserData: -3770
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
         m_OriginalEventType: 0

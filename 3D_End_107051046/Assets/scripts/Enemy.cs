@@ -38,7 +38,7 @@ public class Enemy : MonoBehaviour
         ani = GetComponent<Animator>();
 
         //尋找其他遊戲物件("物件名稱").變形物件
-        player = GameObject.Find("ming").transform;
+        player = GameObject.Find("amira").transform;
 
         //代理器的 速度 與 停止距離
         nav.speed = speed;
@@ -91,22 +91,7 @@ public class Enemy : MonoBehaviour
         }
     }
 
-    ///受傷
-    ///<param name="damage">接收的傷害值 </param>
-    public void Damage(float damage)
-    {
-        hp -= damage;
-        ani.SetTrigger("damage");
-        if (hp <= 0) Dead();
-    }
-
-    private void Dead()
-    {
-        nav.isStopped = true;  //關閉 導覽器
-        enabled = false;       // 關閉 腳本
-        ani.SetBool("die", true);   // 死亡動畫
-    }
-
+   
     /// <summary>
     /// 繪製圖示事件:僅在Unity內顯示
     /// </summary>

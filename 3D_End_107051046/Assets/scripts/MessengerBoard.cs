@@ -18,7 +18,7 @@ public class MessengerBoard: MonoBehaviour
     // 定義列舉 eunm (下拉式選單 - 只能選一個)
     public enum NPCState
     {
-       Propaganda, RollCall, Dairy, Opennote, Note, lilisos, lilisQuestion, lilisTks
+       Propaganda, RollCall, Dairy, Opennote, Note, lilisos
     }
 
     // 列舉欄位
@@ -125,12 +125,7 @@ public class MessengerBoard: MonoBehaviour
             case NPCState.lilisos:
                 dialogString = data.dialogF;
                 break;
-            case NPCState.lilisQuestion:
-                dialogString = data.dialogG;
-                break;
-            case NPCState.lilisTks:
-                dialogString = data.dialogH;
-                break;
+           
         }
 
         // 字串的長度 dialogA.Length

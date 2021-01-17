@@ -1,5 +1,7 @@
 ﻿using UnityEngine;
 using Invector.vCharacterController;  //引用 套件
+using UnityEngine.SceneManagement;
+
 
 public class Player : MonoBehaviour
 {
@@ -19,16 +21,24 @@ public class Player : MonoBehaviour
     {
         hp -= damage;
         ani.SetTrigger("damage");
-        if (hp <= 0) Dead();
+        if (hp <= 0) 
+        {
+            Dead();
+            SceneManager.LoadScene("lose");
+        }
     }
 
     private void Dead()
     {
         ani.SetTrigger("die");
 
+
         //鎖定移動與旋轉
         vThirdPersonController vt = GetComponent<vThirdPersonController>();
         vt.lockMovement = true;
         vt.lockRotation = true;
+
     }
+
+   
 }

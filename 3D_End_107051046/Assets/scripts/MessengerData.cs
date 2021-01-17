@@ -19,8 +19,5 @@ public class MessengerData : ScriptableObject
     public string dialogE;
     [Header("莉莉絲的求救"), TextArea(1, 5)]
     public string dialogF;
-    [Header("莉莉絲的問題"), TextArea(1, 5)]
-    public string dialogG;
-    [Header("莉莉絲的感謝"), TextArea(1, 5)]
-    public string dialogH;
+   
 }

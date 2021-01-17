@@ -1,18 +1,32 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MenuManager : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+
+    public void StartGame()
     {
-        
+        SceneManager.LoadScene("3DEND");
     }
 
-    // Update is called once per frame
-    void Update()
+    public void EndGame()
     {
-        
+        SceneManager.LoadScene("END");
+    }
+
+    public void QuitGame()
+    {
+        print("離開遊戲");
+        Application.Quit();
+    }
+
+    public void RestartGame()
+    {
+        SceneManager.LoadScene("open");
+    }
+
+    public void Lose()
+    {
+        SceneManager.LoadScene("lose");
     }
 }
